@@ -1,0 +1,642 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+
+/* Start Home */
+
+
+/* Start Navbar */
+.container .navbar-brand {
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+
+.nav-link {
+    color: white;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.nav-link::after {
+    content: '';
+    width: 70%;
+    height: 2px;
+    background-color: white;
+    display: block;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.nav-link:hover::after {
+    opacity: 1;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.911);
+}
+
+/* End Navbar */
+
+
+/* body-home */
+#home {
+    background-image: url(../images/hero-bg.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+
+#home .total {
+    background-color: #00000091;
+    width: 100%;
+    height: 100%;
+}
+
+.total .info h2 {
+    font-size: 70px;
+    font-weight: 500;
+}
+
+.total .info h3 {
+    font-size: 45px;
+}
+
+.total .info h3::after {
+    content: "|";
+    animation: typing 7s infinite;
+}
+
+@keyframes typing {
+    1% {
+        content: "D|";
+    }
+
+    4% {
+        content: "De|";
+    }
+
+    6% {
+        content: "Dev|";
+    }
+
+    8% {
+        content: "Deve|";
+    }
+
+    10% {
+        content: "Devel|";
+    }
+
+    12% {
+        content: "Develo|";
+    }
+
+    14% {
+        content: "Develop|";
+    }
+
+    16% {
+        content: "Develope|";
+    }
+
+    18% {
+        content: "Developer|";
+    }
+
+    20% {
+        content: "Develope|";
+    }
+
+    21% {
+        content: "Develop|";
+    }
+
+    22% {
+        content: "Develo|";
+    }
+
+    24% {
+        content: "Devel|";
+    }
+
+    26% {
+        content: "Deve|";
+    }
+
+    27% {
+        content: "Dev|";
+    }
+
+    28% {
+        content: "De|";
+    }
+
+    29% {
+        content: "D|";
+    }
+
+    30% {
+        content: "|";
+    }
+
+    32% {
+        content: "D|";
+    }
+
+    34% {
+        content: "De|";
+    }
+
+    35% {
+        content: "Des|";
+    }
+
+    37% {
+        content: "Desi|";
+    }
+
+    39% {
+        content: "Desig|";
+    }
+
+    40% {
+        content: "Design|";
+    }
+
+    42% {
+        content: "Designe|";
+    }
+
+    43% {
+        content: "Designer|";
+    }
+
+    44% {
+        content: "Designe|";
+    }
+
+    45% {
+        content: "Design|";
+    }
+
+    46% {
+        content: "Desig|";
+    }
+
+    48% {
+        content: "Desi|";
+    }
+
+    50% {
+        content: "Des|";
+    }
+
+    52% {
+        content: "De|";
+    }
+
+    54% {
+        content: "D|";
+    }
+
+    56% {
+        content: "|";
+    }
+
+    58% {
+        content: "P|";
+    }
+
+    60% {
+        content: "Ph|";
+    }
+
+    62% {
+        content: "Pho|";
+    }
+
+    64% {
+        content: "Phot|";
+    }
+
+    66% {
+        content: "Photo|";
+    }
+
+    68% {
+        content: "Photog|";
+    }
+
+    70% {
+        content: "Photogr|";
+    }
+
+    72% {
+        content: "Photogra|";
+    }
+
+    74% {
+        content: "Photograp|";
+    }
+
+    76% {
+        content: "Photograph|";
+    }
+
+    78% {
+        content: "Photographe|";
+    }
+
+    79% {
+        content: "Photographer|";
+    }
+
+    80% {
+        content: "Photographe|";
+    }
+
+    81% {
+        content: "Photograph|";
+    }
+
+    82% {
+        content: "Photograp|";
+    }
+
+    84% {
+        content: "Photogra|";
+    }
+
+    86% {
+        content: "Photogr|";
+    }
+
+    88% {
+        content: "Photog|";
+    }
+
+    90% {
+        content: "Photo|";
+    }
+
+    92% {
+        content: "Phot|";
+    }
+
+    94% {
+        content: "Pho|";
+    }
+
+    96% {
+        content: "Ph|";
+    }
+
+    98% {
+        content: "P|";
+    }
+
+    100% {
+        content: "|";
+    }
+}
+
+@media screen and (max-width:568px) {
+    #home .total .info h2 {
+        font-size: 45px;
+    }
+
+    #home .total .info h3 {
+        font-size: 35px;
+    }
+}
+
+/* End Body-home */
+
+
+/* Start About */
+#about .info span {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#about .skills .font {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#about .paragraph-info {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#about h3 {
+    font-size: 32px;
+    font-weight: 500;
+    position: relative;
+}
+
+#about h3::after {
+    content: "";
+    width: 120px;
+    height: 3px;
+    background-color: rgb(0, 120, 255);
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+/* End About */
+
+
+/* Start Services */
+#services {
+    width: 100%;
+}
+
+#services .head h2 {
+    font-size: 50px;
+    font-weight: 650;
+}
+
+#services .head p::after {
+    content: "";
+    width: 50px;
+    height: 5px;
+    background-color: rgb(0, 120, 255);
+    position: absolute;
+    top: 100%;
+    left: 45%;
+}
+
+#services .card-body .icon {
+    padding: 25px;
+    font-size: 40px;
+    border-radius: 50%;
+    border: 10px solid rgb(0, 120, 255);
+    transition: all 0.75s;
+}
+
+#services .card-body:hover .icon {
+    color: white;
+    background-color: rgb(0, 120, 255);
+    border-color: rgb(173, 211, 255);
+}
+
+/* End Services */
+
+/* End Home */
+
+
+
+/* Start Count */
+#count {
+    background-image: url(../images/post-3.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#count .info {
+    background-color: #0078ffa9;
+}
+
+#count .body-info {
+    color: white;
+}
+
+#count .body-info i {
+    font-size: 30px;
+}
+
+#count .num {
+    font-size: 40px;
+}
+
+#count .icon {
+    padding: 20px;
+    border-radius: 50%;
+    border: 10px solid white;
+}
+
+@media screen and (min-width:769px) {
+
+    #count {
+        height: 50%;
+    }
+}
+
+/* End Count */
+
+
+/* Start Portfolio */
+#portfolio .head h2 {
+    font-size: 50px;
+    font-weight: 650;
+}
+
+#portfolio .head p::after {
+    content: "";
+    width: 50px;
+    height: 5px;
+    background-color: rgb(0, 120, 255);
+    position: absolute;
+    top: 100%;
+    left: 45%;
+}
+
+#portfolio .card-img {
+    height: 300px;
+    overflow: hidden;
+}
+
+#portfolio .card-img:hover img {
+    transform: scale(1.2);
+}
+
+#portfolio .card-img img {
+    transition: all 1s;
+}
+
+#portfolio .card-body .color {
+    color: rgb(27, 134, 255);
+}
+
+#portfolio .icon {
+    padding: 10px;
+    border-radius: 50%;
+    border: 3px solid rgb(0, 120, 255);
+}
+
+/* End portfolio */
+
+
+/* Start testimonial */
+#testimonial {
+    height: 650px;
+    background-image: url(../images/overlay-bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#testimonial .info {
+    background-color: #0078ffa9;
+    color: white;
+}
+
+#testimonial .info h3 {
+    font-size: 20px;
+}
+
+#testimonial .info p {
+    font-weight: 300;
+}
+
+/* End testimonial */
+
+
+/* Start blog */
+#blog .head h2 {
+    font-size: 50px;
+    font-weight: 650;
+}
+
+#blog .head p::after {
+    content: "";
+    width: 50px;
+    height: 5px;
+    background-color: rgb(0, 120, 255);
+    position: absolute;
+    top: 100%;
+    left: 45%;
+}
+
+#blog .spn {
+    background-color: rgb(27, 134, 255);
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    top: -10%;
+    left: 40%;
+}
+
+#blog .img {
+    width: 35px;
+    height: 35px;
+    overflow: hidden;
+}
+
+/* End blog */
+
+
+/* Start Contact */
+#contact {
+    background-image: url(../images/overlay-bg.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#contact .btn {
+    font-size: 20px;
+    transition: all 0.2s;
+}
+
+#contact .btn:hover {
+    background-color: rgb(51, 147, 255);
+    border: 5px solid rgb(173, 211, 255);
+}
+
+.contactUs {
+    background-color: #0078ffa9;
+}
+
+#contact .title h3 {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+#contact .title h3:after {
+    content: "";
+    width: 120px;
+    height: 3px;
+    background-color: rgb(0, 120, 255);
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+#contact .title p {
+    color: gray;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+#contact .info i {
+    color: rgb(0, 120, 255);
+    margin-right: 20px;
+}
+
+#contact ul {
+    margin: 0;
+    padding: 0;
+}
+
+#contact ul .icon {
+    font-size: 20px;
+    color: black;
+}
+
+#contact .social-media {
+    display: inline-flex;
+}
+
+#contact .social-media i {
+    border-radius: 50%;
+    border: 3px solid rgb(0, 120, 255);
+    padding: 10px;
+    transition: all 0.5s;
+}
+
+#contact .social-media i:hover {
+    color: white;
+    background-color: rgb(0, 120, 255);
+    border-color: rgb(173, 211, 255);
+}
+
+@media screen and (max-width:568px) {
+    .contactUs {
+        padding-top: 20px;
+    }
+
+    .contactUs .container {
+        margin: 10px;
+    }
+}
+
+/* End Contact */
+
+
+/* Start Footer */
+#footer {
+    background-color: rgb(0, 98, 211);
+}
+
+#footer span {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* End Footer */
